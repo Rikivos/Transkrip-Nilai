@@ -1,0 +1,185 @@
+html {
+    background-color: white;
+}
+
+header {
+    height: auto;
+    width: auto;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #103325;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border: #103325 solid 10px;
+    height: 36px;
+}
+
+nav ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 32%;
+	padding:0px;
+}
+
+nav ul li {
+    background-color: #103325;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px;
+    display: block;
+    line-height: 50px;
+    font: 95% Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+nav ul li a:hover{
+    color: green;
+}
+/* Tabel */
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+tbody {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
+
+#t3 p {
+  text-align: left;
+}
+
+td input {
+  width: 50px;
+  border: 0;
+  outline: none;
+  text-align: center;
+  background-color: #b2c8df;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Form */
+
+/* Aside */
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 25px;
+}
+
+aside article {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.pictme {
+  display: block;
+  margin: 6px auto;
+}
+
+.profile img {
+  width: 170px;
+  border-radius: 50%;
+}
+
+.profile p,
+.profile h2 {
+  margin: 20px;
+}
+
+aside section img {
+  width: 140px;
+}
+
+body {
+    text-align: center;
+    overflow-y: scroll;
+	overflow-x:hidden;
+    font-family: Tahoma, sans-serif;
+    font-size: 11pt;
+    background: rgb(229, 241, 229);
+    color: #000000;
+}
+
+section {
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 20px;
+}
+
+footer {
+    height: 35px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    padding-top: 18px;
+    vertical-align: middle;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+tr, th, td {
+    padding: 10px;
+}
+
+button {
+    text-align: center;
+    background-color: rgb(179, 177, 177);
+    box-shadow: 0px 1px 8px green;
+    margin: 6px;
+}
+
+thead {
+    background-color:lightblue;
+    color: black;
+ }
+
+tbody {
+    background-color:lightyellow;
+    color: black;
+ }
+ 
+tfoot {
+    background-color:lightpink;
+ color: black;
+ }
+
+.dark-mode {
+    background-color: rgb(43, 41, 41);
+    color: white;
+
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+	<link rel="icon" href="media/cenip.ico"/>
+    <title>Transkrip</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<script src="js/myscript.js"></script>
+	<script src="js/myscript.js"></script>
+	<script src="js/form.js"></script>
+</head>
+<body>
+	<header>
+		<h2>Tugas Akhir Semester</h2>
+	</header>
+	<nav>
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Transaksi Nilai.html">Transkrip Nilai</a></li>
+			<li><a href="Simulasi Audit.html">Simulasi Audit</a></li>
+			<li><a href="about-me.html">About Me</a></li>
+			
+			<button onclick="myFunction()">Night Mode</i></button>
+		</ul>
+	</nav>
+		
+	<!-- form -->
+        <article id="form" class="wrapper">
+          <h2>Form</h2>
+          <section class="card">
+            <h3>Form Transkrip Nilai</h3>
+            <!-- Tabel 1.1 -->
+            <table id="t1">
+              <tr>
+                <th>NO</th>
+                <th>Komponen Penilaian</th>
+                <th>Score</th>
+                <th>Bobot</th>
+                <th>Bobot X Score</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Ketepatan dan kedisiplinan selama pelaksanaan bimbingan skirpsi</td>
+                <td><input type="text" /></td>
+                <td>50</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Kemauan dan tingkat keseriusan dalam menyelesaikan skipsi</td>
+                <td><input type="text" /></td>
+                <td>50</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td colspan="3">TOTAL</td>
+                <td style="text-align: center">100</td>
+                <td id="tot1"></td>
+              </tr>
+            </table>
+            <button onclick="sum()">Nilai</button>
+        </article>
+        <!-- table 1.2 -->
+            <table id="t2">
+              <thead>
+                <tr>
+                  <th rowspan="2">NO</th>
+                  <th rowspan="2">Komponen Pemilaian</th>
+                  <th colspan="3">Skor Penguji</th>
+                  <th rowspan="2">Rata-Rata</th>
+                  <th rowspan="2">Bobot</th>
+                  <th rowspan="2">Bobot X Score</th>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Orisinalitas dan kebaruan topik penelitian</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>15</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Relevansi logis antar judul, masalah, teori, metode dan hasil penelitian</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Tata tulis</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Penguasaan materi penelitian</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Presentasi dan argumentasi jawaban</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>15</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Penampilan saat presentasi</td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td><input type="text" /></td>
+                  <td></td>
+                  <td>10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td colspan="7">TOTAL</td>
+                  <td id="tot2" style="text-align: center"></td>
+                </tr>
+                <tr>
+                  <td colspan="7">NILAI AKHIR</td>
+                  <td id="Nakhir" style="text-align: center"></td>
+                </tr>
+                <tr>
+                  <td colspan="7">NILAI HURUF</td>
+                  <td id="grade" style="text-align: center"></td>
+                </tr>
+              </tbody>
+            </table>
+            <button onclick="sum2()" type="submit">Nilai</button>
+          </section>
+          
+      </div>
+      <script src="mulya/form.js"></script>
+    <script src="mulya/nav.js"></script>
+	
+	
+	
+	
+	
+	<!-- End your code here - 2157 -->
+	</section>
+	<footer>
+		<div
+			class="center">
+			  &copy; 2022
+			  <a
+				  style="color: white; margin: auto;"
+				  href="about-me.html">Ramadhani Rizky Syahputra
+			  </a>
+		  </div>
+	  </footer>
+</body>
+</html>	  
